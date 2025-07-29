@@ -72,9 +72,16 @@
     <Compile Include="Inicio.aspx.designer.cs">
       <DependentUpon>Inicio.aspx</DependentUpon>
     </Compile>
+    <Compile Include="InicioYestilos.Master.cs">
+      <DependentUpon>InicioYestilos.Master</DependentUpon>
+    </Compile>
+    <Compile Include="InicioYestilos.Master.designer.cs">
+      <DependentUpon>InicioYestilos.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="InicioYestilos.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

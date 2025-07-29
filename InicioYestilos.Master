@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="InicioYestilos.master.cs" Inherits="Wakashii.InicioYestilos" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <%-- Bulma CSS --%>
+    <link href="~/Content/bulma.min.css" rel="stylesheet" />
+
+    <%-- Tailwind CSS (ensure this comes last if you want its utility classes to override others) --%>
+    <%-- If you're using a custom build of Tailwind, adjust the path --%>
+    <link href="~/Content/tailwind.min.css" rel="stylesheet" /> 
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
